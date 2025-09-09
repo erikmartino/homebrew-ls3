@@ -3,7 +3,7 @@ cask "ls3" do
   name "ls3"
   desc "A terminal-based user interface for browsing Amazon S3 buckets and objects"
   homepage "https://github.com/erikmartino/ls3"
-  version "1.5.1"
+  version "1.5.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ls3" do
   on_macos do
     on_intel do
       url "https://github.com/erikmartino/ls3/releases/download/v#{version}/ls3_Darwin_x86_64.tar.gz"
-      sha256 "21c5198d67bd73a79760691519401627b5c9c67773aea51e2f4c83182a3a5c5c"
+      sha256 "612aedbcf41033f71cc0e362a678a15e2a824dee33387605ddf29ac9f41c791c"
     end
     on_arm do
       url "https://github.com/erikmartino/ls3/releases/download/v#{version}/ls3_Darwin_arm64.tar.gz"
-      sha256 "c0431355e3d7c77381b206301acd1f54cc19c8f7bf259876a457acdaf5d8c167"
+      sha256 "68e9136defe355f900bcf89d8ea48f6c2341ae165ea97240cc89f635c2397d49"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/erikmartino/ls3/releases/download/v#{version}/ls3_Linux_x86_64.tar.gz"
-      sha256 "bca139c9f9911b6d4b785936162661b32ddad708213c0c30af1749fba127c259"
+      sha256 "a4308785144a6d791fa32f4fdd77164aa8966d2bf804bc46ef759c6f0ff46007"
     end
     on_arm do
       url "https://github.com/erikmartino/ls3/releases/download/v#{version}/ls3_Linux_arm64.tar.gz"
-      sha256 "f352c841d3e999194bfee5a23569d76456a4619bf9777358738fe0cbb57045ec"
+      sha256 "faa3bf68afab26640ad3313b5b15875e8e7903738ef6bc028dbc92dd97c766a6"
     end
   end
 
